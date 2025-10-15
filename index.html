@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="plataforma.css">
+    <link rel="stylesheet" href="repositorios.css">
+    <link rel="stylesheet" href="redes.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site portifóliio no Github</title>
+</head>
+<body>
+    <div class="container">
+            <h1>JosiasCardosoDias-glitch</h1>
+    <img style="width: 15%; background-color: black;" src="Imagens/A perfil-foto.png" alt="imagem de perfil">
+    </div>
+    <div id="ola">Olá!, Seja muito bem vindo!!</div> 
+    <p>Eu me chamo <strong>Josias Dias Cardoso</strong> e sou um estudante de programação. Meu maior sonho é me tornar um programador, por isso eu estudo programação todos os dias, ou sempre que eu consigo. Meu conhecimento ainda é pouco, mas procuro utilizar o pouco que eu sei para exercitar e desenvolve-lo através da pratica. Por esse motivo eu criei essa página, na qual já linkei minhas redes sociais para o caso de alguém ter a curiosidade de acessalas e quem sabe querer me seguir ou me acompanhar nessa jornada &#128077;</p>
+    <hr>
+    <h2>Meus Repositórios</h2>
+    <div id="repositorios1" type="link">
+        Bliblioteca Úteis
+        <!--<a href="https://github.com/josiascardosodias-glitch/biblioteca_uteis" target="_blank" rel="external">Blibiotéca uteis</a>-->
+    </div>
+    <div id="repositorios2" type="link">
+        Olá mundo
+        <!--<a href="https://github.com/josiascardosodias-glitch/ola-mundo" target="_blank" rel="external">Olá Mundo</a><br>-->
+    </div>    
+    <div id="repositorios3" type="link">
+        Clonando Repositórios
+        <!--<a href="https://github.com/josiascardosodias-glitch/clonando_repositorio" target="_blank" rel="external">Clonando Repositórios</a>-->
+    </div>
+    <hr>
+    <h2>Minhas redes sociais</h2>
+            <ul>
+                <div id="icones">
+                    <div id="facebook">
+                        <li><img src="Imagens/icone-facebook.png" alt="foto">Facebook</li>
+                        <!--<a href="https://www.facebook.com/josias.diascardoso/"></a>-->
+                    </div>
+                    <div id="github">
+                        <li><img src="Imagens/icone-github.png" alt="foto">Github</li>
+                        <!--<a href="https://github.com/josiascardosodias-glitch"></a>-->
+                    </div>
+                    <div id="instagram">
+                        <li><img src="Imagens/icone-instagram.png" alt="foto">Instagram</li>
+                        <!--<a href="https://www.instagram.com/josias.d_cardoso/"></a>-->
+                    </div>
+                    <div id="twitter">
+                        <li><img src="Imagens/icone-twitter.png" alt="foto">Twitter</li>
+                        <!--<a href="https://x.com/josias_cardos" target="></a>-->
+                    </div>
+                </div>
+            </ul>
+    <script>
+        var repositorios1 = document.getElementById("repositorios1");
+        repositorios1.addEventListener("mouseenter", entrar1)
+        repositorios1.addEventListener("click", clicar1)
+        repositorios1.addEventListener("mouseout", sair1)
+
+        function entrar1() {
+            repositorios1.style.background = "#92b7ef"
+            repositorios1.style.border = "solid 2px rgb(59, 130, 246)"
+            repositorios1.style.color = "white"
+            repositorios1.style.fontSize = "35px"
+        }
+
+        function clicar1() {
+            repositorios1.style.background = "rgb(183, 207, 244)"
+            repositorios1.style.border = "solid 2px rgb(59, 130, 246)"
+            repositorios1.style.color = "white"
+            window.open("https://github.com/josiascardosodias-glitch/biblioteca_uteis", "_blank",); // abre em nova aba
+        }
+
+        function sair1() {
+            repositorios1.style.background = "#3B82F6"
+            repositorios1.style.color = "#F9FAFB"
+            repositorios1.style.fontSize = "30px"
+        }
+                var repositorios2 = document.getElementById("repositorios2");
+        repositorios2.addEventListener("mouseenter", entrar2)
+        repositorios2.addEventListener("click", clicar2)
+        repositorios2.addEventListener("mouseout", sair2)
+
+        function entrar2() {
+            repositorios2.style.background = "#92b7ef"
+            repositorios2.style.border = "solid 2px rgb(59, 130, 246)"
+            repositorios2.style.color = "white"
+            repositorios2.style.fontSize = "35px"
+        }
+
+        function clicar2() {
+            repositorios2.style.background = "rgb(183, 207, 244)"
+            repositorios2.style.border = "solid 2px rgb(59, 130, 246)"
+            repositorios2.style.color = "white"
+            window.open("https://github.com/josiascardosodias-glitch/ola-mundo", "_blank",);
+        }
+
+        function sair2() {
+            repositorios2.style.background = "#3B82F6"
+            repositorios2.style.color = "#F9FAFB"
+            repositorios2.style.fontSize = "30px"
+        }
+                var repositorios3 = document.getElementById("repositorios3");
+        repositorios3.addEventListener("mouseenter", entrar3)
+        repositorios3.addEventListener("click", clicar3)
+        repositorios3.addEventListener("mouseout", sair3)
+
+        function entrar3() {
+            repositorios3.style.background = "#92b7ef"
+            repositorios3.style.border = "solid 2px rgb(59, 130, 246)"
+            repositorios3.style.color = "white"
+            repositorios3.style.fontSize = "35px"
+        }
+
+        function clicar3() {
+            repositorios3.style.background = "rgb(183, 207, 244)"
+            repositorios3.style.border = "solid 2px rgb(59, 130, 246)"
+            repositorios3.style.color = "white"
+            window.open("https://github.com/josiascardosodias-glitch/clonando_repositorio", "_blank",);
+        }
+
+        function sair3() {
+            repositorios3.style.background = "#3B82F6"
+            repositorios3.style.color = "#F9FAFB"
+            repositorios3.style.fontSize = "30px"
+        }
+
+        var facebook = document.getElementById("facebook");
+        facebook.addEventListener("mouseenter", enterf)
+        facebook.addEventListener("click", clickf)
+        facebook.addEventListener("mouseout", sairf)
+
+        function enterf() {
+            facebook.style.fontSize = "30px"
+        }
+
+            function clickf() {
+            window.open("https://www.facebook.com/josias.diascardoso/", "_blank")
+        }
+
+        function sairf() {
+            facebook.style.fontSize = "25px"
+        }
+
+        var github = document.getElementById("github");
+        github.addEventListener("mouseenter", enterg)
+        github.addEventListener("click", clickg)
+        github.addEventListener("mouseout", sairg)
+
+        function enterg() {
+            github.style.fontSize = "30px"
+        }
+
+        function clickg() {
+            window.open("https://github.com/josiascardosodias-glitch", "_blank")
+        }
+
+        function sairg() {
+            github.style.fontSize = "25px"
+        }
+
+        var instagram = document.getElementById("instagram");
+        instagram.addEventListener("mouseenter", enteri)
+        instagram.addEventListener("click", clicki)
+        instagram.addEventListener("mouseout", sairi)
+
+                function enteri() {
+            instagram.style.fontSize = "30px"
+        }
+
+        function clicki() {
+            window.open("https://www.instagram.com/josias.d_cardoso/", "_blank")
+        }
+
+        function sairi() {
+            instagram.style.fontSize = "25px"
+        }
+
+        var twitter = document.getElementById("twitter");
+        twitter.addEventListener("mouseenter", entert)
+        twitter.addEventListener("click", clickt)
+        twitter.addEventListener("mouseout", sairt)
+
+                function entert() {
+            twitter.style.fontSize = "30px"
+        }
+
+        function clickt() {
+            window.open("https://x.com/josias_cardos", "_blank")
+        }
+
+        function sairt() {
+            twitter.style.fontSize = "25px"
+        }
+    </script>
+</body>
+</html>

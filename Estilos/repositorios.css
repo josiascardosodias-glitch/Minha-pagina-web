@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#repositorios1 {
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #3B82F6;
+    color: #E5E7EB;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 8px;
+    border: solid 2px #3B82F6;
+}
+#repositorios2 {
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #3B82F6;
+    color: #E5E7EB;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 8px;
+    border: solid 2px #3B82F6;
+}
+#repositorios3 {
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #3B82F6;
+    color: #E5E7EB;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 8px;
+    border: solid 2px #3B82F6;
+}

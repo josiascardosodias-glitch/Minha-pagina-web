@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#icones {
+    font-size: 25px;
+    color: #09419B;
+    display: block;
+    padding: 10px;
+    width: fit-content;
+    list-style: circle;
+}
+#icones img {
+    background-color: white;
+}
