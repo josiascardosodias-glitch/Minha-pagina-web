@@ -9,13 +9,22 @@
     <title>Site portifóliio no Github</title>
 </head>
 <body>
+
+<!--Cabeçalho do saite-->
+
     <div class="container">
             <h1>JosiasCardosoDias-glitch</h1>
     <img style="width: 15%; background-color: black;" src="Imagens/A perfil-foto.png" alt="imagem de perfil">
     </div>
+
+<!--Corpo do saite-->
+
     <div id="ola">Olá!, Seja muito bem vindo!!</div> 
     <p>Eu me chamo <strong>Josias Dias Cardoso</strong> e sou um estudante de programação. Meu maior sonho é me tornar um programador, por isso eu estudo programação todos os dias, ou sempre que eu consigo. Meu conhecimento ainda é pouco, mas procuro utilizar o pouco que eu sei para exercitar e desenvolve-lo através da pratica. Por esse motivo eu criei essa página, na qual já linkei minhas redes sociais para o caso de alguém ter a curiosidade de acessalas e quem sabe querer me seguir ou me acompanhar nessa jornada &#128077;</p>
     <hr>
+
+<!--Link para acessar os repositórios-->
+
     <h2>Meus Repositórios</h2>
     <div id="repositorios1" type="link">
         Bliblioteca Úteis
@@ -30,6 +39,9 @@
         <!--<a href="https://github.com/josiascardosodias-glitch/clonando_repositorio" target="_blank" rel="external">Clonando Repositórios</a>-->
     </div>
     <hr>
+
+<!--Area das redes sociais-->
+
     <h2>Minhas redes sociais</h2>
             <ul>
                 <div id="icones">
@@ -51,150 +63,359 @@
                     </div>
                 </div>
             </ul>
-    <script>
-        var repositorios1 = document.getElementById("repositorios1");
-        repositorios1.addEventListener("mouseenter", entrar1)
-        repositorios1.addEventListener("touchmove", entrar1)
-        repositorios1.addEventListener("click", clicar1)
-        repositorios1.addEventListener("touchstart", clicar1)
-        repositorios1.addEventListener("mouseout", sair1)
-        repositorios1.addEventListener("touchend", sair1)
-        repositorios1.addEventListener("touchcancel", sair1)
 
-        function entrar1() {
-            repositorios1.style.background = "#92b7ef"
-            repositorios1.style.border = "solid 2px rgb(59, 130, 246)"
-            repositorios1.style.color = "white"
-            repositorios1.style.fontSize = "35px"
+<!--Area programada do saite-->
+
+<script>
+
+//Repositórios mouse// 
+
+        var repositoriosmouse1 = document.getElementById("repositorios1");
+        repositoriosmouse1.addEventListener("mouseenter", entrarmouse1);
+        repositoriosmouse1.addEventListener("click", clicarmouse1);
+        repositoriosmouse1.addEventListener("mouseout", sairmouse1);
+
+        function entrarmouse1() {
+            repositoriosmouse1.style.background = "#92b7ef"
+            repositoriosmouse1.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriosmouse1.style.color = "white"
+            repositoriosmouse1.style.fontSize = "35px"
         }
 
-        function clicar1() {
-            repositorios1.style.background = "rgb(183, 207, 244)"
-            repositorios1.style.border = "solid 2px rgb(59, 130, 246)"
-            repositorios1.style.color = "white"
-            window.open("https://github.com/josiascardosodias-glitch/biblioteca_uteis", "_blank",); // abre em nova aba
+        function clicarmouse1() {
+            repositoriosmouse1.style.background = "rgb(183, 207, 244)"
+            repositoriosmouse1.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriosmouse1.style.color = "white"
+            window.open("https://github.com/josiascardosodias-glitch/biblioteca_uteis", "_blank",);
         }
 
-        function sair1() {
-            repositorios1.style.background = "#3B82F6"
-            repositorios1.style.color = "#F9FAFB"
-            repositorios1.style.fontSize = "30px"
+        function sairmouse1() {
+            repositoriosmouse1.style.background = "#3B82F6"
+            repositoriosmouse1.style.color = "#F9FAFB"
+            repositoriosmouse1.style.fontSize = "30px"
         }
-                var repositorios2 = document.getElementById("repositorios2");
-        repositorios2.addEventListener("mouseenter", entrar2)
-        repositorios2.addEventListener("click", clicar2)
-        repositorios2.addEventListener("mouseout", sair2)
+                var repositoriosmouse2 = document.getElementById("repositorios2");
+        repositoriosmouse2.addEventListener("mouseenter", entrarmouse2)
+        repositoriosmouse2.addEventListener("click", clicarmouse2)
+        repositoriosmouse2.addEventListener("mouseout", sairmouse2)
 
-        function entrar2() {
-            repositorios2.style.background = "#92b7ef"
-            repositorios2.style.border = "solid 2px rgb(59, 130, 246)"
-            repositorios2.style.color = "white"
-            repositorios2.style.fontSize = "35px"
+        function entrarmouse2() {
+            repositoriosmouse2.style.background = "#92b7ef"
+            repositoriosmouse2.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriosmouse2.style.color = "white"
+            repositoriosmouse2.style.fontSize = "35px"
         }
 
-        function clicar2() {
-            repositorios2.style.background = "rgb(183, 207, 244)"
-            repositorios2.style.border = "solid 2px rgb(59, 130, 246)"
-            repositorios2.style.color = "white"
+        function clicarmouse2() {
+            repositoriosmouse2.style.background = "rgb(183, 207, 244)"
+            repositoriosmouse2.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriosmouse2.style.color = "white"
             window.open("https://github.com/josiascardosodias-glitch/ola-mundo", "_blank",);
         }
 
-        function sair2() {
-            repositorios2.style.background = "#3B82F6"
-            repositorios2.style.color = "#F9FAFB"
-            repositorios2.style.fontSize = "30px"
+        function sairmouse2() {
+            repositoriosmouse2.style.background = "#3B82F6"
+            repositoriosmouse2.style.color = "#F9FAFB"
+            repositoriosmouse2.style.fontSize = "30px"
         }
-                var repositorios3 = document.getElementById("repositorios3");
-        repositorios3.addEventListener("mouseenter", entrar3)
-        repositorios3.addEventListener("click", clicar3)
-        repositorios3.addEventListener("mouseout", sair3)
+                var repositoriosmouse3 = document.getElementById("repositorios3");
+        repositoriosmouse3.addEventListener("mouseenter", entrarmouse3)
+        repositoriosmouse3.addEventListener("click", clicarmouse3)
+        repositoriosmouse3.addEventListener("mouseout", sairmouse3)
 
-        function entrar3() {
-            repositorios3.style.background = "#92b7ef"
-            repositorios3.style.border = "solid 2px rgb(59, 130, 246)"
-            repositorios3.style.color = "white"
-            repositorios3.style.fontSize = "35px"
+        function entrarmouse3() {
+            repositoriosmouse3.style.background = "#92b7ef"
+            repositoriosmouse3.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriosmouse3.style.color = "white"
+            repositoriosmouse3.style.fontSize = "35px"
         }
 
-        function clicar3() {
-            repositorios3.style.background = "rgb(183, 207, 244)"
-            repositorios3.style.border = "solid 2px rgb(59, 130, 246)"
-            repositorios3.style.color = "white"
+        function clicarmouse3() {
+            repositoriosmouse3.style.background = "rgb(183, 207, 244)"
+            repositoriosmouse3.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriosmouse3.style.color = "white"
             window.open("https://github.com/josiascardosodias-glitch/clonando_repositorio", "_blank",);
         }
 
-        function sair3() {
-            repositorios3.style.background = "#3B82F6"
-            repositorios3.style.color = "#F9FAFB"
-            repositorios3.style.fontSize = "30px"
+        function sairmouse3() {
+            repositoriosmouse3.style.background = "#3B82F6"
+            repositoriosmouse3.style.color = "#F9FAFB"
+            repositoriosmouse3.style.fontSize = "30px"
         }
 
-        var facebook = document.getElementById("facebook");
-        facebook.addEventListener("mouseenter", enterf)
-        facebook.addEventListener("click", clickf)
-        facebook.addEventListener("mouseout", sairf)
+//Repositórios touch//
 
-        function enterf() {
-            facebook.style.fontSize = "30px"
+        var repositoriostouch1 = document.getElementById("repositorios1");
+        repositoriostouch1.addEventListener("touchstart", tocou1)
+        repositoriostouch1.addEventListener("touchmove", moveu1)
+        repositoriostouch1.addEventListener("touchend", saiu1)
+        repositoriostouch1.addEventListener("touchcancel", cancelou1)
+
+        function tocou1() {
+            repositoriostouch1.style.background = "#92b7ef"
+            repositoriostouch1.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriostouch1.style.color = "white"
+            window.open("https://github.com/josiascardosodias-glitch/biblioteca_uteis", "_blank",);
         }
 
-            function clickf() {
+        function moveu1() {
+            repositoriostouch1.style.background = "#92b7ef"
+            repositoriostouch1.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriostouch1.style.color = "white"
+        }
+
+        function saiu1() {
+            repositoriostouch1.style.background = "#3B82F6"
+            repositoriostouch1.style.color = "#F9FAFB"
+            repositoriostouch1.style.fontSize = "30px"
+        }
+
+        function cancelou1(){
+            repositoriostouch1.style.background = "#3B82F6"
+            repositoriostouch1.style.color = "#F9FAFB"
+            repositoriostouch1.style.fontSize = "30px"
+        }
+
+        var repositoriostouch2 = document.getElementById("repositorios2");
+        repositoriostouch2.addEventListener("touchstart", tocou2)
+        repositoriostouch2.addEventListener("touchmove", moveu2)
+        repositoriostouch2.addEventListener("touchend", saiu2)
+        repositoriostouch2.addEventListener("touchcancel", cancelou2)
+
+        function tocou2() {
+            repositoriostouch2.style.background = "#92b7ef"
+            repositoriostouch2.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriostouch2.style.color = "white"
+            window.open("https://github.com/josiascardosodias-glitch/ola-mundo", "_blank",);
+        }
+
+        function moveu2() {
+            repositoriostouch2.style.background = "#92b7ef"
+            repositoriostouch2.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriostouch2.style.color = "white"
+        }
+
+        function saiu2() {
+            repositoriostouch2.style.background = "#3B82F6"
+            repositoriostouch2.style.color = "#F9FAFB"
+            repositoriostouch2.style.fontSize = "30px"
+        }
+
+        function cancelou2(){
+            repositoriostouch2.style.background = "#3B82F6"
+            repositoriostouch2.style.color = "#F9FAFB"
+            repositoriostouch2.style.fontSize = "30px"
+        }
+
+        var repositoriostouch3 = document.getElementById("repositorios3");
+        repositoriostouch3.addEventListener("touchstart", tocou3)
+        repositoriostouch3.addEventListener("touchmove", moveu3)
+        repositoriostouch3.addEventListener("touchend", saiu3)
+        repositoriostouch3.addEventListener("touchcancel", cancelou3)
+
+        function tocou3() {
+            repositoriostouch3.style.background = "#92b7ef"
+            repositoriostouch3.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriostouch3.style.color = "white"
+            window.open("https://github.com/josiascardosodias-glitch/clonando_repositorio", "_blank",);
+        }
+
+        function moveu3() {
+            repositoriostouch3.style.background = "#92b7ef"
+            repositoriostouch3.style.border = "solid 2px rgb(59, 130, 246)"
+            repositoriostouch3.style.color = "white"
+        }
+
+        function saiu3() {
+            repositoriostouch3.style.background = "#3B82F6"
+            repositoriostouch3.style.color = "#F9FAFB"
+            repositoriostouch3.style.fontSize = "30px"
+        }
+
+        function cancelou3(){
+            repositoriostouch3.style.background = "#3B82F6"
+            repositoriostouch3.style.color = "#F9FAFB"
+            repositoriostouch3.style.fontSize = "30px"
+        }
+
+//Redes sociais mouse//
+
+        var facebookmouse = document.getElementById("facebook");
+        facebookmouse.addEventListener("mouseenter", entermousef)
+        facebookmouse.addEventListener("click", clickmousef)
+        facebookmouse.addEventListener("mouseout", sairmousef)
+
+        function entermousef() {
+            facebookmouse.style.fontSize = "30px"
+        }
+
+            function clickmousef() {
             window.open("https://www.facebook.com/josias.diascardoso/", "_blank")
         }
 
-        function sairf() {
-            facebook.style.fontSize = "25px"
+        function sairmousef() {
+            facebookmouse.style.fontSize = "25px"
         }
 
-        var github = document.getElementById("github");
-        github.addEventListener("mouseenter", enterg)
-        github.addEventListener("click", clickg)
-        github.addEventListener("mouseout", sairg)
+        var githubmouse = document.getElementById("github");
+        githubmouse.addEventListener("mouseenter", entermouseg)
+        githubmouse.addEventListener("click", clickmouseg)
+        githubmouse.addEventListener("mouseout", sairmouseg)
 
-        function enterg() {
-            github.style.fontSize = "30px"
+        function entermouseg() {
+            githubmouse.style.fontSize = "30px"
         }
 
-        function clickg() {
+        function clickmouseg() {
             window.open("https://github.com/josiascardosodias-glitch", "_blank")
         }
 
-        function sairg() {
-            github.style.fontSize = "25px"
+        function sairmouseg() {
+            githubmouse.style.fontSize = "25px"
         }
 
-        var instagram = document.getElementById("instagram");
-        instagram.addEventListener("mouseenter", enteri)
-        instagram.addEventListener("click", clicki)
-        instagram.addEventListener("mouseout", sairi)
+        var instagrammouse = document.getElementById("instagram");
+        instagrammouse.addEventListener("mouseenter", entermousei)
+        instagrammouse.addEventListener("click", clickmousei)
+        instagrammouse.addEventListener("mouseout", sairmousei)
 
-                function enteri() {
-            instagram.style.fontSize = "30px"
+                function entermousei() {
+            instagrammouse.style.fontSize = "30px"
         }
 
-        function clicki() {
+        function clickmousei() {
             window.open("https://www.instagram.com/josias.d_cardoso/", "_blank")
         }
 
-        function sairi() {
-            instagram.style.fontSize = "25px"
+        function sairmousei() {
+            instagrammouse.style.fontSize = "25px"
         }
 
-        var twitter = document.getElementById("twitter");
-        twitter.addEventListener("mouseenter", entert)
-        twitter.addEventListener("click", clickt)
-        twitter.addEventListener("mouseout", sairt)
+        var twittermouse = document.getElementById("twitter");
+        twittermouse.addEventListener("mouseenter", entermouset)
+        twittermouse.addEventListener("click", clickmouset)
+        twittermouse.addEventListener("mouseout", sairmouset)
 
-                function entert() {
-            twitter.style.fontSize = "30px"
+                function entermouset() {
+            twittermouse.style.fontSize = "30px"
         }
 
-        function clickt() {
+        function clickmouset() {
             window.open("https://x.com/josias_cardos", "_blank")
         }
 
-        function sairt() {
-            twitter.style.fontSize = "25px"
+        function sairmouset() {
+            twittermouse.style.fontSize = "25px"
+        }
+
+//Redes sociais touch//
+
+        var facebooktouch = document.getElementById("facebook");
+        facebooktouch.addEventListener("touchstart", tocouf)
+        facebooktouch.addEventListener("touchmove", moveuf)
+        facebooktouch.addEventListener("touchend", saiuf)
+        facebooktouch.addEventListener("touchcancel", cancelouf)
+
+        function tocouf() {
+            facebooktouch.style.fontSize = "30px"
+            facebooktouch.style.textDecoration = "underline"
+            window.open("https://www.facebook.com/josias.diascardoso/", "_blank",);
+        }
+
+        function moveuf() {
+            facebooktouch.style.fontSize = "30px"
+            facebooktouch.style.textDecoration = "underline"
+        }
+
+        function saiuf() {
+            facebooktouch.style.fontSize = "25px"
+            facebooktouch.style.textDecoration = "none"
+        }
+
+        function cancelouf() {
+            facebooktouch.style.fontSize = "25px"
+            facebooktouch.style.textDecoration = "none"
+        }
+
+        var githubtouch = document.getElementById("github");
+        githubtouch.addEventListener("touchstart", tocoug)
+        githubtouch.addEventListener("touchmove", moveug)
+        githubtouch.addEventListener("touchend", saiug)
+        githubtouch.addEventListener("touchcancel", canceloug)
+
+        function tocoug() {
+            githubtouch.style.fontSize = "30px"
+            githubtouch.style.textDecoration = "underline"
+            window.open("https://github.com/josiascardosodias-glitch", "_blank");
+        }
+
+        function moveug() {
+            githubtouch.style.fontSize = "30px"
+            githubtouch.style.textDecoration = "underline"
+        }
+
+        function saiug() {
+            githubtouch.style.fontSize = "25px"
+            githubtouch.style.textDecoration = "none"
+        }
+
+        function canceloug() {
+            githubtouch.style.fontSize = "25px"
+            githubtouch.style.textDecoration = "none"
+        }
+
+        var instagramtouch = document.getElementById("instagram");
+        instagramtouch.addEventListener("touchstart", tocoui)
+        instagramtouch.addEventListener("touchmove", moveui)
+        instagramtouch.addEventListener("touchend", saiui)
+        instagramtouch.addEventListener("touchcancel", canceloui)
+
+        function tocoui() {
+            instagramtouch.style.fontSize = "30px"
+            instagramtouch.style.textDecoration = "underline"
+            window.open("https://www.instagram.com/josias.d_cardoso/", "_blank");
+        }
+
+        function moveui() {
+            instagramtouch.style.fontSize = "30px"
+            instagramtouch.style.textDecoration = "underline"
+        }
+
+        function saiui() {
+            instagramtouch.style.fontSize = "25px"
+            instagramtouch.style.textDecoration = "none"
+        }
+
+        function canceloui() {
+            instagramtouch.style.fontSize = "25px"
+            instagramtouch.style.textDecoration = "none"
+        }
+
+        var twittertouch = document.getElementById("twitter");
+        twittertouch.addEventListener("touchstart", tocout)
+        twittertouch.addEventListener("touchmove", moveut)
+        twittertouch.addEventListener("touchend", saiut)
+        twittertouch.addEventListener("touchcancel", cancelout)
+
+        function tocout() {
+            twittertouch.style.fontSize = "30px"
+            twittertouch.style.textDecoration = "underline"
+            window.open("https://x.com/josias_cardos", "_blank");
+        }
+
+        function moveut() {
+            twittertouch.style.fontSize = "30px"
+            twittertouch.style.textDecoration = "underline"
+        }
+
+        function saiut() {
+            twittertouch.style.fontSize = "25px"
+            twittertouch.style.textDecoration = "none"
+        }
+
+        function cancelout() {
+            twittertouch.style.fontSize = "25px"
+            twittertouch.style.textDecoration = "none"
         }
     </script>
 </body>
