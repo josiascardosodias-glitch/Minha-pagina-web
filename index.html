@@ -54,8 +54,12 @@
     <script>
         var repositorios1 = document.getElementById("repositorios1");
         repositorios1.addEventListener("mouseenter", entrar1)
+        repositorios1.addEventListener("touchmove", entrar1)
         repositorios1.addEventListener("click", clicar1)
+        repositorios1.addEventListener("touchstart", clicar1)
         repositorios1.addEventListener("mouseout", sair1)
+        repositorios1.addEventListener("touchend", sair1)
+        repositorios1.addEventListener("touchcancel", sair1)
 
         function entrar1() {
             repositorios1.style.background = "#92b7ef"
