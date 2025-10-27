@@ -34,11 +34,11 @@
         <!--<a href="https://github.com/josiascardosodias-glitch/biblioteca_uteis" target="_blank" rel="external">Blibiotéca uteis</a>-->
     </div>
     <div id="repositorios2" type="link">
-        Olá mundo
+        Favoritos em python
         <!--<a href="https://github.com/josiascardosodias-glitch/ola-mundo" target="_blank" rel="external">Olá Mundo</a><br>-->
     </div>    
     <div id="repositorios3" type="link">
-        Clonando Repositórios
+        Prompts
         <!--<a href="https://github.com/josiascardosodias-glitch/clonando_repositorio" target="_blank" rel="external">Clonando Repositórios</a>-->
     </div>
     <hr>
@@ -50,7 +50,7 @@
                 <div id="icones">
                     <div id="facebook">
                         <li><img src="Imagens/icones/icone-facebook.png" alt="foto">Facebook</li>
-                        <!--<a href="https://www.facebook.com/josias.diascardoso/"></a>-->
+                        <!--<a href="https://www.facebook.com/profile.php?id=61582732899995"></a>-->
                     </div>
                     <div id="github">
                         <li><img src="Imagens/icones/icone-github.png" alt="foto">Github</li>
@@ -63,6 +63,10 @@
                     <div id="twitter">
                         <li><img src="Imagens/icones/icone-twitter.png" alt="foto">Twitter</li>
                         <!--<a href="https://x.com/josias_cardos" target="></a>-->
+                    </div>
+                    <div id="linkedin">
+                        <li><img src="Estilos/Imagens/icone-linkedin.png" alt="foto">linkedin</li>
+                        <!--<<a href="https://www.linkedin.com/in/josias-dias-cardoso/"></a>-->
                     </div>
                 </div>
             </ul>
@@ -113,7 +117,7 @@
             repositoriosmouse2.style.background = "rgb(183, 207, 244)"
             repositoriosmouse2.style.border = "solid 2px rgb(59, 130, 246)"
             repositoriosmouse2.style.color = "white"
-            window.open("https://github.com/josiascardosodias-glitch/ola-mundo", "_blank",);
+            window.open("https://github.com/josiascardosodias-glitch/Favoritos-em-python", "_blank",);
         }
 
         function sairmouse2() {
@@ -137,7 +141,7 @@
             repositoriosmouse3.style.background = "rgb(183, 207, 244)"
             repositoriosmouse3.style.border = "solid 2px rgb(59, 130, 246)"
             repositoriosmouse3.style.color = "white"
-            window.open("https://github.com/josiascardosodias-glitch/clonando_repositorio", "_blank",);
+            window.open("https://github.com/josiascardosodias-glitch/propts", "_blank",);
         }
 
         function sairmouse3() {
@@ -189,7 +193,7 @@
             repositoriostouch2.style.background = "#92b7ef"
             repositoriostouch2.style.border = "solid 2px rgb(59, 130, 246)"
             repositoriostouch2.style.color = "white"
-            window.open("https://github.com/josiascardosodias-glitch/ola-mundo", "_blank",);
+            window.open("https://github.com/josiascardosodias-glitch/Favoritos-em-python", "_blank",);
         }
 
         function moveu2() {
@@ -220,7 +224,7 @@
             repositoriostouch3.style.background = "#92b7ef"
             repositoriostouch3.style.border = "solid 2px rgb(59, 130, 246)"
             repositoriostouch3.style.color = "white"
-            window.open("https://github.com/josiascardosodias-glitch/clonando_repositorio", "_blank",);
+            window.open("https://github.com/josiascardosodias-glitch/propts", "_blank",);
         }
 
         function moveu3() {
@@ -243,6 +247,23 @@
 
 //Redes sociais mouse//
 
+var linkedinmouse = document.getElementById("linkedin");
+        linkedinmouse.addEventListener("mouseenter", entermousel)
+        linkedinmouse.addEventListener("click", clickmousel)
+        linkedinmouse.addEventListener("mouseout", sairmousel)
+
+        function entermousel() {
+            linkedinmouse.style.fontSize = "30px"
+        }
+
+            function clickmousel() {
+            window.open("https://www.linkedin.com/in/josias-dias-cardoso/", "_blank")
+        }
+
+        function sairmousel() {
+            linkedinmouse.style.fontSize = "25px"
+        }
+
         var facebookmouse = document.getElementById("facebook");
         facebookmouse.addEventListener("mouseenter", entermousef)
         facebookmouse.addEventListener("click", clickmousef)
@@ -253,7 +274,7 @@
         }
 
             function clickmousef() {
-            window.open("https://www.facebook.com/josias.diascardoso/", "_blank")
+            window.open("https://www.facebook.com/profile.php?id=61582732899995", "_blank")
         }
 
         function sairmousef() {
@@ -313,6 +334,33 @@
 
 //Redes sociais touch//
 
+var linkedintouch = document.getElementById("linkedin");
+        facebooktouch.addEventListener("touchstart", tocouf)
+        facebooktouch.addEventListener("touchmove", moveuf)
+        facebooktouch.addEventListener("touchend", saiuf)
+        facebooktouch.addEventListener("touchcancel", cancelouf)
+
+        function tocouf() {
+            facebooktouch.style.fontSize = "30px"
+            facebooktouch.style.textDecoration = "underline"
+            window.open("https://www.linkedin.com/in/josias-dias-cardoso/", "_blank",);
+        }
+
+        function moveuf() {
+            facebooktouch.style.fontSize = "30px"
+            facebooktouch.style.textDecoration = "underline"
+        }
+
+        function saiuf() {
+            facebooktouch.style.fontSize = "25px"
+            facebooktouch.style.textDecoration = "none"
+        }
+
+        function cancelouf() {
+            facebooktouch.style.fontSize = "25px"
+            facebooktouch.style.textDecoration = "none"
+        }
+
         var facebooktouch = document.getElementById("facebook");
         facebooktouch.addEventListener("touchstart", tocouf)
         facebooktouch.addEventListener("touchmove", moveuf)
@@ -322,7 +370,7 @@
         function tocouf() {
             facebooktouch.style.fontSize = "30px"
             facebooktouch.style.textDecoration = "underline"
-            window.open("https://www.facebook.com/josias.diascardoso/", "_blank",);
+            window.open("https://www.facebook.com/profile.php?id=61582732899995", "_blank",);
         }
 
         function moveuf() {
